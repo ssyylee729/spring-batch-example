@@ -1,0 +1,12 @@
+spring:
+  batch:
+    job:
+      names: ${job.name:NONE}
+    jdbc:
+      initialize-schema: always
+#  main:
+#      allow-bean-definition-overriding: true
+
+  datasource:
+    driver-class-name: org.h2.Driver
+#    data: classpath:person.sql
